@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: ''
+    url: jdbc:mysql://localhost:3306/mini_store_db?createDatabaseIfNotExist=true&useSSL=true
+  security:
+    user:
+      name: user
+      password: user
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
